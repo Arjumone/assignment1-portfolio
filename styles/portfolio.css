@@ -37,8 +37,6 @@
 .profile-container{
 display: flex;
 
-    
-    
 }
 .profile-tittle{
     font-size: 40px;
@@ -78,7 +76,7 @@ display: flex;
     height: 300px;
     width: 1140px;
     background-image: url('../images/watch.png');
-    
+    background-repeat: no-repeat;
     align-items: left; color: white;
     font-weight: 700;
     font-size: 30px;
@@ -99,4 +97,48 @@ display: flex;
 .watch-banner{
   font-size: 40px;
   font-weight: 700;  
+}
+.contact .contact-tittle{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: black;
+    color: white;
+    padding: 200px 200px;
+}
+
+.btn-sub{
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.te.contact input .text{
+    margin-bottom: 25px;
+    border: 0;
+    width: 300px;
+    height: 30px;
+    
+    border-radius: 5px;
+    text-align: center;
+    padding: 18ps 64px;
+
+}
+.contact input{
+    width: 150px;
+height: 30px;
+}
+.contact-tittle{
+    margin-bottom: 25px;
+}
+.contact input[type="email"]{
+    background-color: black;
+    color: white;
+    
 }
