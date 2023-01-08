@@ -66,10 +66,37 @@ display: flex;
     display: flex;
     gap: 40px;
     justify-content: center;
+    gap: 100px;
 }
 .section-tittle{
     font-size: 30px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
+}
+.watch-container{
+    height: 300px;
+    width: 1140px;
+    background-image: url('../images/watch.png');
+    
+    align-items: left; color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 40px;
+    
+    
+}
+.btn-button{
+    margin: 10px;
+    height: 60px;
+    width: 160px;
+    background-color: white;
+    color: blue;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.watch-banner{
+  font-size: 40px;
+  font-weight: 700;  
 }
