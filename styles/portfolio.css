@@ -9,24 +9,32 @@
     background-color: black;
     color: white;
 }
-.banner-container{
-    height: 100vh;
-    width: 100%;
+.banner-container{ display: flex;
+height: 100vh;
+width: 100%;
     background-image: url('../images/banner/banner3.png');
-
-    display: flex;
-    justify-content: right;
+justify-content: right;
     text-align: right;
     align-items: center;
     color: white;
+    padding: 120px 10px;
+    
+    
     
 }
 .banner-details{
-    width: 300px;
-    padding: 150px 50px;
-
+    width: 250px;
+    padding: 50px;
     
 }
+
+    
+    
+    
+
+    
+
+
 .tittle-banner{
   font-size: 50px;
   margin-bottom: 20px;  
